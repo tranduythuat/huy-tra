@@ -108,9 +108,9 @@ document.addEventListener("DOMContentLoaded", () => {
           confirmButtonColor: "#838484",
           showCloseButton: true,
           showConfirmButton: false,
-          imageUrl: "https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-tra/MTN00714_Original.webp",
+          imageUrl: "https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-tra/MTN00804_Original.webp",
           imageWidth: "100%",
-          imageHeight: "350",
+          imageHeight: "450",
           imageAlt: "Custom image",
           html: `
               <div class="qrcode-box">

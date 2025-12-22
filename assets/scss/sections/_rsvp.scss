@@ -84,7 +84,7 @@
 
                 .attendance-buttons {
                     display: grid;
-                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-columns: 1fr 1fr;
                     gap: 7%;
                     margin: 3% 0 5%;
 
@@ -100,7 +100,9 @@
 
                     .radio-label {
                         font-family: $gothamLight-font;
-                        display: block;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         padding: 3%;
                         border: 2px solid #000;
                         border-radius: 15px;
@@ -110,7 +112,7 @@
                         text-transform: uppercase;
                         text-align: center;
                         line-height: 1.5;
-
+                        min-height: 54px;
                         &:hover {
                             background: #ded1c3;
                         }

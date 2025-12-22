@@ -65,16 +65,14 @@
                     margin-bottom: 5%;
                 }
                 .timeline-grid {
-                    width: 80%;
-                    display: grid;
-                    grid-template-columns: repeat(4, 1fr);
-                    grid-template-rows: auto auto;
-                    row-gap: 20%;
-
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
                     .item {
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
+                        margin-bottom: 5%;
                         .icon {
                             width: 50px;
                             aspect-ratio: 50 / 70;
@@ -85,6 +83,22 @@
                                 width: 100%;
                                 height: auto;
                             }
+                        }
+                        .desc {
+                            width: 100%;
+                        }
+                    }
+                    &.friend {
+                        width: 100%;
+                        .item {
+                            width: 20%;
+                        }
+                    }
+
+                    &.parent {
+                        width: 80%;
+                        .item {
+                            width: 33.3333%;
                         }
                     }
                 }

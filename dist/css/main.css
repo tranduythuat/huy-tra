@@ -248,7 +248,7 @@ header {
 .invitation .content .image-box {
   width: 100%;
   aspect-ratio: 500/812;
-  background: linear-gradient(to bottom, #e8e6d9, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-tra/MTN00211_Original.webp") no-repeat center/cover;
+  background: linear-gradient(to bottom, #e8e6d9, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-tra/IMG_4984.webp") no-repeat center/cover;
 }
 .invitation .content .image-box h2 {
   font-family: "1FTVBlushingRose", sans-serif;
@@ -355,16 +355,15 @@ header {
   margin-bottom: 5%;
 }
 .location .content .ceremony-block .timeline .timeline-grid {
-  width: 80%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto auto;
-  row-gap: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .location .content .ceremony-block .timeline .timeline-grid .item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 5%;
 }
 .location .content .ceremony-block .timeline .timeline-grid .item .icon {
   width: 50px;
@@ -377,6 +376,21 @@ header {
 .location .content .ceremony-block .timeline .timeline-grid .item .icon img {
   width: 100%;
   height: auto;
+}
+.location .content .ceremony-block .timeline .timeline-grid .item .desc {
+  width: 100%;
+}
+.location .content .ceremony-block .timeline .timeline-grid.friend {
+  width: 100%;
+}
+.location .content .ceremony-block .timeline .timeline-grid.friend .item {
+  width: 20%;
+}
+.location .content .ceremony-block .timeline .timeline-grid.parent {
+  width: 80%;
+}
+.location .content .ceremony-block .timeline .timeline-grid.parent .item {
+  width: 33.3333%;
 }
 .location .content .ceremony-block .location-details {
   display: flex;
@@ -600,7 +614,7 @@ header {
 }
 .rsvp .content form .form-group .attendance-buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 7%;
   margin: 3% 0 5%;
 }
@@ -614,7 +628,9 @@ header {
 }
 .rsvp .content form .form-group .attendance-buttons .radio-label {
   font-family: "SVN-GothamLight", sans-serif;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 3%;
   border: 2px solid #000;
   border-radius: 15px;
@@ -624,6 +640,7 @@ header {
   text-transform: uppercase;
   text-align: center;
   line-height: 1.5;
+  min-height: 54px;
 }
 .rsvp .content form .form-group .attendance-buttons .radio-label:hover {
   background: #ded1c3;
@@ -738,14 +755,13 @@ header {
 div:where(.swal2-container) img:where(.swal2-image) {
   margin: 0 !important;
   object-fit: cover;
-  object-position: 100% 90%;
+  object-position: 100% 50%;
 }
 
 .qrcode-box {
   display: flex;
   flex-direction: row-reverse;
 }
-
 .qrcode-box .item {
   width: 100%;
   margin-bottom: 6%;
@@ -754,23 +770,14 @@ div:where(.swal2-container) img:where(.swal2-image) {
   flex-direction: column;
   justify-content: space-between;
 }
-
 .qrcode-box .item .info {
   margin-bottom: 2%;
 }
-
 .qrcode-box .item .qrcode-img {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.qrcode-box .item .qrcode-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .qrcode-box .item .qrcode-img img {
   width: 30%;
   display: flex;
