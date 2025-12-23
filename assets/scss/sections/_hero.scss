@@ -35,13 +35,13 @@
     &.parent {
         .content {
             p.date-range {
-                font-size: 46px;
+                font-size: 48px;
             }
             p.couple-names {
-                font-size: 27px;
+                font-size: 29px;
             }
             .invited-text {
-                font-size: 14px;
+                font-size: 16px;
             }
         }
     }
@@ -64,13 +64,13 @@
         &.parent {
             .content {
                 p.date-range {
-                    font-size: calc((46 / 500) * 100vw);
+                    font-size: calc((48 / 500) * 100vw);
                 }
                 p.couple-names {
-                    font-size: calc((27 / 500) * 100vw);
+                    font-size: calc((29 / 500) * 100vw);
                 }
                 .invited-text {
-                    font-size: calc((14 / 500) * 100vw);
+                    font-size: calc((16 / 500) * 100vw);
                 }
             }
         }

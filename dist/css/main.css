@@ -178,13 +178,13 @@ header {
   margin-bottom: 6%;
 }
 .hero.parent .content p.date-range {
-  font-size: 46px;
+  font-size: 48px;
 }
 .hero.parent .content p.couple-names {
-  font-size: 27px;
+  font-size: 29px;
 }
 .hero.parent .content .invited-text {
-  font-size: 14px;
+  font-size: 16px;
 }
 @media (max-width: 500px) {
   .hero .content p.date-range {
@@ -199,13 +199,13 @@ header {
     letter-spacing: 0.4vw;
   }
   .hero.parent .content p.date-range {
-    font-size: 9.2vw;
+    font-size: 9.6vw;
   }
   .hero.parent .content p.couple-names {
-    font-size: 5.4vw;
+    font-size: 5.8vw;
   }
   .hero.parent .content .invited-text {
-    font-size: 2.8vw;
+    font-size: 3.2vw;
   }
 }
 
@@ -274,23 +274,26 @@ header {
   font-weight: 100;
   margin-top: 5%;
 }
+.invitation.parent .content .text-box {
+  padding: 10% 3% 20%;
+}
 .invitation.parent .content .text-box .initials h2 {
-  font-size: 72px;
+  font-size: 74px;
 }
 .invitation.parent .content .text-box .initials h2 span {
-  font-size: 32px;
+  font-size: 34px;
 }
 .invitation.parent .content .text-box .family-info p, .invitation.parent .content .text-box .invitation-text p {
-  font-size: 14px;
+  font-size: 16px;
 }
 .invitation.parent .content .text-box .couple-info h2 {
-  font-size: 28px;
+  font-size: 30px;
 }
 .invitation.parent .content .text-box .couple-info .divider-couple {
-  font-size: 22px;
+  font-size: 24px;
 }
 .invitation.parent .content .image-box h2 {
-  font-size: 58px;
+  font-size: 60px;
 }
 @media (max-width: 500px) {
   .invitation .content .text-box {
@@ -322,22 +325,22 @@ header {
     font-size: 11.2vw;
   }
   .invitation.parent .content .text-box .initials h2 {
-    font-size: 14.4vw;
+    font-size: 14.8vw;
   }
   .invitation.parent .content .text-box .initials h2 span {
-    font-size: 6.4vw;
+    font-size: 6.8vw;
   }
   .invitation.parent .content .text-box .family-info p, .invitation.parent .content .text-box .invitation-text p {
-    font-size: 2.8vw;
+    font-size: 3.2vw;
   }
   .invitation.parent .content .text-box .couple-info h2 {
-    font-size: 5.6vw;
+    font-size: 6vw;
   }
   .invitation.parent .content .text-box .couple-info .divider-couple {
-    font-size: 4.4vw;
+    font-size: 4.8vw;
   }
   .invitation.parent .content .image-box h2 {
-    font-size: 11.6vw;
+    font-size: 12vw;
   }
 }
 
@@ -506,19 +509,19 @@ header {
   margin-top: 15%;
 }
 .location.parent .content p {
-  font-size: 16.6px;
+  font-size: 18.6px;
 }
 .location.parent .content .header-section .time-and-location {
-  max-width: 214px;
+  max-width: 240px;
 }
 .location.parent .content .header-section h1.main-title {
-  font-size: 53px;
+  font-size: 55px;
 }
 .location.parent .content .ceremony-block h2.date {
-  font-size: 44px;
+  font-size: 46px;
 }
 .location.parent .content .ceremony-block .location-details .location-name {
-  font-size: 34px;
+  font-size: 36px;
 }
 @media (max-width: 500px) {
   .location .content p {
@@ -557,19 +560,19 @@ header {
     width: 6vw;
   }
   .location.parent .content p {
-    font-size: 3.32vw;
+    font-size: 3.72vw;
   }
   .location.parent .content .header-section .time-and-location {
-    max-width: 42.8vw;
+    max-width: 48vw;
   }
   .location.parent .content .header-section h1.main-title {
-    font-size: 10.6vw;
+    font-size: 11vw;
   }
   .location.parent .content .ceremony-block h2.date {
-    font-size: 8.8vw;
+    font-size: 9.2vw;
   }
   .location.parent .content .ceremony-block .location-details .location-name {
-    font-size: 6.8vw;
+    font-size: 7.2vw;
   }
 }
 

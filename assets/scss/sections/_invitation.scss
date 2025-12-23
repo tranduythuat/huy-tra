@@ -80,34 +80,35 @@
     &.parent {
         .content {
             .text-box {
+                padding: 10% 3% 20%;
                 .initials {
                     h2 {
-                        font-size: 72px;  
+                        font-size: 74px;  
                         span {
-                            font-size: 32px;
+                            font-size: 34px;
                         }
                     }
                 }
     
                 .family-info, .invitation-text {
                     p {
-                        font-size: 14px;
+                        font-size: 16px;
                     }
                 }
     
                 .couple-info {
                     h2 {
-                        font-size: 28px;
+                        font-size: 30px;
                     }
                     .divider-couple {
-                        font-size: 22px;
+                        font-size: 24px;
                     }
                 }
             }
     
             .image-box {
                 h2 {
-                    font-size: 58px;
+                    font-size: 60px;
                 }
             }
         }
@@ -165,32 +166,32 @@
                 .text-box {
                     .initials {
                         h2 {
-                            font-size: calc((72 / 500) * 100vw);;  
+                            font-size: calc((74 / 500) * 100vw);;  
                             span {
-                                font-size: calc((32 / 500) * 100vw);;
+                                font-size: calc((34 / 500) * 100vw);;
                             }
                         }
                     }
         
                     .family-info, .invitation-text {
                         p {
-                            font-size: calc((14 / 500) * 100vw);;
+                            font-size: calc((16 / 500) * 100vw);;
                         }
                     }
         
                     .couple-info {
                         h2 {
-                            font-size: calc((28 / 500) * 100vw);;
+                            font-size: calc((30 / 500) * 100vw);;
                         }
                         .divider-couple {
-                            font-size: calc((22 / 500) * 100vw);;
+                            font-size: calc((24 / 500) * 100vw);;
                         }
                     }
                 }
         
                 .image-box {
                     h2 {
-                        font-size: calc((58 / 500) * 100vw);;
+                        font-size: calc((60 / 500) * 100vw);;
                     }
                 }
             }
