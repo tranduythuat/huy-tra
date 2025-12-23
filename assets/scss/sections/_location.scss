@@ -161,6 +161,36 @@
         }
     }
 
+    &.parent {
+        .content {
+            p {
+                font-size: 16.6px;
+            }
+
+            .header-section {
+                .time-and-location {
+                    max-width: 214px;
+                }
+
+                h1.main-title {
+                    font-size: 53px;
+                }
+            }
+
+            .ceremony-block {
+                h2.date {
+                    font-size: 44px;
+                }
+
+                .location-details {
+                    .location-name {
+                        font-size: 34px;
+                    }
+                }
+            }
+        }
+    }
+
     @media (max-width: 500px) {
         .content {
             p {
@@ -216,6 +246,36 @@
                 .color-grid {
                     .item {
                         width: calc((30 / 500) * 100vw);
+                    }
+                }
+            }
+        }
+
+        &.parent {
+            .content {
+                p {
+                    font-size: calc((16.6 / 500) * 100vw);;
+                }
+    
+                .header-section {
+                    .time-and-location {
+                        max-width: calc((214 / 500) * 100vw);
+                    }
+    
+                    h1.main-title {
+                        font-size: calc((53 / 500) * 100vw);;
+                    }
+                }
+    
+                .ceremony-block {
+                    h2.date {
+                        font-size: calc((44 / 500) * 100vw);;
+                    }
+    
+                    .location-details {
+                        .location-name {
+                            font-size: calc((34 / 500) * 100vw);;
+                        }
                     }
                 }
             }

@@ -32,6 +32,20 @@
         }
     }
 
+    &.parent {
+        .content {
+            p.date-range {
+                font-size: 46px;
+            }
+            p.couple-names {
+                font-size: 27px;
+            }
+            .invited-text {
+                font-size: 14px;
+            }
+        }
+    }
+
     @media (max-width: 500px) {
         .content {
             p.date-range {
@@ -44,6 +58,20 @@
             .invited-text {
                 font-size: calc((12/ 500) * 100vw);
                 letter-spacing: calc((2 / 500) * 100vw);
+            }
+        }
+
+        &.parent {
+            .content {
+                p.date-range {
+                    font-size: calc((46 / 500) * 100vw);
+                }
+                p.couple-names {
+                    font-size: calc((27 / 500) * 100vw);
+                }
+                .invited-text {
+                    font-size: calc((14 / 500) * 100vw);
+                }
             }
         }
     }
