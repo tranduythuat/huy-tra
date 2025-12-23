@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
       },
     });
 
-    const url = "?sheet=confirm";
+    const url = "https://script.google.com/macros/s/AKfycbzJbNFPzpki_WGKC4qz-jkdCxILWfbn9ABgzreEKvjaJcpDbWy__MuFde8wFv_iod_6/exec?sheet=confirm";
 
     try {
       const res = await fetch(url, {
